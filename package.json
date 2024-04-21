@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start-pwa": "ng build && http-server -p 8080 -c-1 dist/master-console",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build"
   },
   "engines": { "node": "21.4.0", "npm": "10.2.4" },
   "private": true,
